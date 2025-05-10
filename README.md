@@ -26,9 +26,14 @@ src/
 │ ├── DarkModeToggle.tsx
 │ ├── FilterButtons.tsx
 │ ├── TaskInput.tsx
+│ ├── TaskItem.tsx
 │ └── TaskList.tsx
 ├── context/
 │ └── ThemeContext.tsx
+├── hooks/
+│ └── useLocalStorage.ts
+├── types/
+│ └── types.ts
 ├── App.tsx
 ├── main.tsx
 ├── index.css
