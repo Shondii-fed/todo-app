@@ -52,3 +52,10 @@ npm install
 
 # Run the dev server
 npm run dev
+
+# Screenshots
+![Todo App in light mode.](<public/screenshots/Todo App LightMode.png>)
+![Todo App in dark mode.](<public/screenshots/Todo App DarkMode.png>)
+
+# Netlify Link
+[text](https://gleeful-yeot-9862a7.netlify.app/)

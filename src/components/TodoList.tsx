@@ -21,7 +21,7 @@ const TodoList: React.FC<Props> = ({ todos, onToggle, onDelete, onEdit }) => {
     }
 
     return (
-        <ul className="dark:text-black w-full">
+        <ul className="dark:text-black w-1/2 ">
             {todos.map((todo) => (
                 <motion.li
                     key={todo.id}
@@ -29,7 +29,7 @@ const TodoList: React.FC<Props> = ({ todos, onToggle, onDelete, onEdit }) => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
                     layout
-                    className="flex justify-between items-center p-2 bg-white rounded shadow mb-2 dark:bg-gray-800"
+                    className="flex flex-col justify-between items-center py-2 bg-white rounded shadow mb-2 dark:bg-gray-800"
                 >
                     <TodoItem
                         todo={todo}

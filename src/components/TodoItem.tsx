@@ -22,8 +22,8 @@ const TodoItem: React.FC<Props> = ({ todo, onToggle, onDelete, onEdit }) => {
 
   return (
     <li
-      className={`flex items-center justify-between bg-white rounded shadow p-3 mb-2 w-full ${
-        todo.completed ? 'opacity-60 line-through' : ''
+      className={`flex items-center justify-between bg-white rounded shadow mx-auto p-3 m-1 w-11/12 hover:scale-[1.05] 
+        ${todo.completed ? 'opacity-60 line-through' : ''
       }`}
     >
       {isEditing ? (
